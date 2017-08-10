@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="90px" height="102px" viewBox="0 0 90 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40 (33762) - http://www.bohemiancoding.com/sketch -->
+    <title>redo filled copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="LandingPage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Page" transform="translate(-900.000000, -4856.000000)" stroke-width="2" stroke="#FFFFFF">
+            <g id="redo-filled-copy" transform="translate(945.500000, 4907.000000) rotate(-180.000000) translate(-945.500000, -4907.000000) translate(902.000000, 4857.000000)">
+                <g id="Слой_1" transform="translate(0.000000, 0.000000)">
+                    <polyline id="Shape" points="61.4117647 51.1764706 86.7210882 25.5882353 61.4117647 0"></polyline>
+                    <path d="M7.67647059,99.7941176 C7.67647059,99.7941176 0,86.1146471 0,63.9705882 C0,41.5655294 14.442,25.5882353 46.0588235,25.5882353 L81.8823529,25.5882353" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,86 @@
+<div class="container-fluid base-block">
+      <div class="row">
+        <div class="col-md-12 owner">
+          <ul class="nav nav-tabs tabMenu">
+            <li class="active"><a href="#profile" data-toggle="tab">ПРОФИЛЬ</a></li>
+            <li><a href="#password" data-toggle="tab">СМЕНИТЬ ПАРОЛЬ</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="tab-content">
+        <div id="profile" class="tab-pane fade in active">
+          <div class="row">
+            <div class="col-md-4 col-md-offset-1">
+              <div style="position:relative;" class="block column">
+                <div class="block-title">АВАТАР</div>
+                <div class="block-content">
+                  <div class="avatar-profile"><img src="{{asset('admin/img/avatar.jpg" class="avatarPhoto"></div>
+                  <div class="button-save-avatar">
+                    <button id="avatarButton" type="button" style="margin-top:40px;padding: 15px 40px; font-size: 14px;font-family:'LatoLight'" class="btn btn-default">ИЗМЕНИТЬ</button>
+                    <input id="avatarSave" type="file" accept="image/*" class="hiddenFile">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div style="padding-left: 40px;padding-right: 40px;" class="block column">
+                <div class="block-title"> ПРОФИЛЬ</div>
+                <div class="block-content">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="nickname">ИМЯ</label>
+                        <input id="nickname" type="text" placeholder="" class="input-guest form-control">
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="nickname">ФАМИЛИЯ</label>
+                        <input id="nickname" type="text" placeholder="" class="input-guest form-control">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <label for="email">E-MAIL</label>
+                        <input id="email" type="email" placeholder="" class="input-email form-control">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div style="text-align:center;" class="col-md-12">
+                      <button type="button" style="margin-top:60px;padding: 15px 40px; font-size: 14px;font-family:'LatoLight'" class="btn btn-default">ИЗМЕНИТЬ</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="password" class="tab-pane fade">
+          <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+              <div style="padding-left: 40px;padding-right: 40px;" class="block">
+                <div class="block-title">СМЕНИТЬ ПАРОЛЬ</div>
+                <div style="text-align:center;border-radius 40px;" class="block-content">
+                  <div class="form-group">
+                    <label for="old-password">СТАРЫЙ ПАРОЛЬ</label>
+                    <input id="old-password" type="password" placeholder="" class="input-password form-control">
+                  </div>
+                  <div class="form-group">
+                    <label for="new-password">НОВЫЙ ПАРОЛЬ</label>
+                    <input id="new-password" type="password" placeholder="" class="input-password form-control">
+                  </div>
+                  <div class="form-group">
+                    <label for="repeat-new-password">ЕЩЕ РАЗ</label>
+                    <input id="repeat-new-password" type="password" placeholder="" class="input-password form-control">
+                  </div>
+                  <button type="button" style="margin-top:40px;padding: 15px 40px; font-size: 14px;font-family:'LatoLight'" class="btn btn-default">ИЗМЕНИТЬ</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>

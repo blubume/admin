@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40 (33762) - http://www.bohemiancoding.com/sketch -->
+    <title>next</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="LandingPage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Page" transform="translate(-362.000000, -4153.000000)">
+            <g id="next" transform="translate(362.000000, 4153.000000)">
+                <g id="Capa_1">
+                    <g id="Group">
+                        <circle id="Oval" fill="#65B3AD" cx="24.9806352" cy="24.9806352" r="24.9806352"></circle>
+                        <path d="M49.3048156,30.6906762 L26.6966189,13.3882172 L26.5683402,20.2244877 L9.82028689,31.2369877 L31.4907787,49.1022541 C40.3190574,46.7254098 47.213627,39.6326844 49.3048156,30.6906762 L49.3048156,30.6906762 Z" id="Shape" fill="#65B3AD"></path>
+                        <path d="M49.3048156,30.6906762 L26.6966189,13.3882172 L26.5683402,20.2244877 L9.82028689,31.2369877 L31.4907787,49.1022541 C40.3190574,46.7254098 47.213627,39.6326844 49.3048156,30.6906762 L49.3048156,30.6906762 Z" id="Shape" fill="#56A49E" opacity="0.37"></path>
+                        <polygon id="Shape" fill="#FFFFFF" points="41.7264344 24.9806352 26.6966189 13.3882172 26.6966189 18.7242828 9.82028689 18.7242828 9.82028689 31.2369877 26.6966189 31.2369877 26.6966189 36.5730533"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

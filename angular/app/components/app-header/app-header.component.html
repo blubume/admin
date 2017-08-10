@@ -1,0 +1,45 @@
+<div role="navigation" class="navbar navbar-inverse navbar-fixed-top header">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a ui-sref="app.dashboard" class="navbar-brand"><img src="/admin/img/logo.svg" height="50px" class="logo"></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav"></ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="headerMenu"><a ui-sref="app.payments">
+                <div class="iconPayment"><span>ОПЛАТА</span></div></a></li>
+            <li class="headerMenu"><a ui-sref="app.talking">
+                <div class="iconTalking"><span>РАЗГОВОРЫ</span></div></a></li>
+            <li class="headerMenu"><a ui-sref="app.administrators" >
+                <div class="iconAdmins"><span>АДМИНИСТРАТОРЫ</span></div></a></li>
+            <li class="headerMenu"><a ui-sref="app.students" >
+                <div class="iconStudents"><span>СТУДЕНТЫ</span></div></a></li>
+            <li class="headerMenu"><a ui-sref="app.teachers" >
+                <div class="iconTeachers"><span>ПРЕПОДАВАТЕЛИ</span></div></a></li>
+            <li class="headerMenu"><a ui-sref="app.chat" > 
+                <div class="iconChat"><span>СООБЩЕНИЯ</span></div></a></li>
+            <li class="dropdown avatar-menu"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><img src="/admin/img/avatar.jpg" class="avatar"><span class="nickname-header">Kathleen R.</span><span class="myCaret">
+                  <div class="arrow_down"></div></span></a>
+              <ul class="dropdown-menu">
+                <li><a ui-sref="app.settings" lang="en">Профиль</a></li>
+                <li><a href="/logout" lang="ru">Выход</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div layout="row">
+        <div flex="90" flex-offset="5" class="DemoHeader-container">
+            <div layout="row" layout-align="space-between">
+                <img src="/img/icons/logo.svg" ui-sref="app.landing" class="DemoHeader-logo"/>
+                <div layout="row" layout-align="center stretch">
+                    <a hide-xs class="DemoHeader-link md-subhead" href="https://laravel-angular.readme.io" target="_blank">Docs</a>
+                    <a hide-xs class="DemoHeader-link md-subhead" href="https://www.youtube.com/channel/UCTiRXlOapSWfu02rtOdaGvA/playlists" target="_blank">Screencasts</a>
+                    <a hide-xs class="DemoHeader-link md-subhead" href="https://github.com/jadjoubran/laravel5-angular-material-starter" target="_blank">Github</a>
+                    <iframe class="DemoHeader-github" ng-src="{{vm.githubWidget}}" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="DemoHeader-spacer"></div>
